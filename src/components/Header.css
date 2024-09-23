@@ -1,0 +1,19 @@
+.header {
+    text-align: center;
+    color: #FFE81F;
+    margin-bottom: 3rem;
+  }
+  
+  .star-wars-title {
+    font-size: 2rem;
+  }
+  
+  .crawl {
+    animation: crawl 30s linear infinite;
+  }
+  
+  @keyframes crawl {
+    0% { transform: translateY(100%); }
+    100% { transform: translateY(-100%); }
+  }
+  
